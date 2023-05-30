@@ -148,3 +148,138 @@ a {
 
 
 }
+
+.useful {
+    margin: 100px auto;
+    font-family: roboto;
+}
+
+.useful-item {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info-item {
+    width: 370px;
+    height: 291px;
+    list-style: none;
+}
+
+.info-item:hover {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.item-img {
+    margin: 40px 0 25px 30px;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/item-img1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.useful-item>li:nth-child(2) .item-img {
+    background-image: url(../img/item-img2.png);
+}
+
+.useful-item>li:nth-child(3) .item-img {
+    background-image: url(../img/item-img3.png);
+}
+
+.header-item {
+
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 17px 30px;
+}
+
+.txt-item {
+    margin: 0 0 25px 30px;
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.transition {
+    color: black;
+    margin: 0 0 25px 30px;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.advantages {
+    font-family: roboto;
+}
+
+.advantages-item {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 682px;
+    height: 123px;
+
+}
+
+.advantages-header {
+    margin: 92 0 15px 0;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.advantages-txt {
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.advantages-block {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.block-item {
+    margin: 55px 0 100px 0;
+    width: 370px;
+    height: 549px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.block-item:hover {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.block-img {
+    width: 370px;
+    height: 270px;
+}
+
+.block-header {
+    margin: 25px 0 22px 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.block-txt {
+    font-size: 15px;
+    line-height: 150%;
+    color: #AAAAAA;
+}
+
+.block-button {
+    margin: 39px auto 50px auto;
+    width: 120px;
+    height: 40px;
+    background: #F25822;
+    color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
